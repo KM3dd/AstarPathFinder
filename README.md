@@ -1,2 +1,2 @@
 # AstarPathFinder
-this is a path finder developper using vanillaJS 
+this is a path finder developped using vanillaJS 
