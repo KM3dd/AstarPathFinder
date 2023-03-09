@@ -1,0 +1,33 @@
+body{
+    background: black;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.gridcell{
+    float: left;
+}
+
+.gridcell.blocked{
+    background: gray;
+}
+
+.gridcell.inCell{
+    background-color: green;
+}
+
+.gridcell.outCell{
+    background-color: coral;
+}
+
+svg{
+    position: fixed;
+    z-index: -1;
+
+}
+svg path{
+    fill: none;
+    stroke-width: 3px;
+    stroke: yellow;
+
+}
